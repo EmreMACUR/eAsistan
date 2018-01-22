@@ -58,6 +58,8 @@ Kurulum ve çalıştırma;
 
 $ git clone https://github.com/EmreMACUR/eAsistan.git 
 
+$ cd eAsistan
+
 $ npm install
 
 $ ionic serve
