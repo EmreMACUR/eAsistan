@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      <p class="title-message"> Mobil Asistanım</p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="body-backgrnd">
+  <div class="sub-header">Ders Listesi</div>
+  
+  <button ion-button class="lesson" *ngFor="let lesson of lessons" (click)="showLessonDetail(lesson)" >
+    Ders Adı: {{lesson.name}}
+    <br>
+    Öğretmen Adı: {{lesson.teacherNameSurname}}
+  </button> 
+
+</ion-content>

@@ -1,0 +1,32 @@
+page-download-doc {
+    .body-backgrnd{
+        background-color: #E1E9F1;
+    }
+    .info-text{
+        position: absolute;
+        top:0px;
+        left: 0px;
+        color: #16BF0C;
+        text-align: center;
+        font-size:15px;
+        font-weight: bold;
+    }
+    .nav-text{
+        position: absolute;
+        bottom:0px;
+        left: 0px;
+        text-align: center;
+        font-size:12px;
+        font-weight: normal;
+        font-style:italic;
+        color: #E87752;
+    }
+    .list{
+        background-color: #96BAB9;
+        border-radius: 5px;
+    }
+    .list-item{
+        background-color: #96BAB9;
+        border-radius: 5px;
+    }
+}

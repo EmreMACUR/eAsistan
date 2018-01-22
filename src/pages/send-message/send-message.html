@@ -1,0 +1,29 @@
+<!--
+  Generated template for the SendMessagePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Mesajlar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="body-backgrnd" padding>
+  <div class="message-area " *ngFor="let dt of messages">
+      <p class="message-right" align="right" *ngIf="dt.isOwner==true && dt.lessonId==currentLesson.id" >{{dt.text}}</p>
+      <p class="message-left" align="left" *ngIf="dt.isOwner==false && dt.lessonId==currentLesson.id" >{{dt.text}}</p>
+  </div>
+
+  <form class="msg-form"  (ngSubmit)="sendMessage()">
+      <ion-item>
+        <ion-input type="text" [(ngModel)]="msgText" name="title"></ion-input>
+      </ion-item>
+      <button ion-button type="submit" block>mesaj gönder</button>
+    </form>
+
+</ion-content>

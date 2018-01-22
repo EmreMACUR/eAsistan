@@ -1,0 +1,29 @@
+page-send-message {
+    .body-backgrnd{
+        background-color: #E1E9F1;
+    }
+    .message-area{
+        width: 100%;
+        border: bold;
+        
+    }
+    .message-left{
+        text-align:left;
+        word-wrap: break-word;
+        background-color: rgb(122, 155, 216);
+        border-radius: 3px;
+    }
+    .message-right{
+        text-align:right;
+        word-wrap: break-word;
+        background-color: rgb(88, 209, 88);
+        border-radius: 3px;
+    }
+    .msg-form{
+        position: absolute; 
+        bottom: 0px; 
+        left: 3%;
+        width:94%;
+    }
+
+}
