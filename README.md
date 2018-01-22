@@ -54,6 +54,13 @@ Bundan sonraki süreçte yapılabilecek geliştirmeler ve projenin detaylandır�
 
 
 
+Kurulum ve çalıştırma;
+
+$ git clone https://github.com/EmreMACUR/eAsistan.git 
+
+$ ionic serve
+
+
 
 
 
