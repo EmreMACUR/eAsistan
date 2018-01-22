@@ -1,5 +1,5 @@
 # eAsistan
-# eAsistan
+
 Merhaba,
   
   Öncelikle projenin amacından bahsetmek istiyorum. Bu proje öğretmenler ve öğrenciler arasında mobil bir köprü olması amacıyla tasarlanmıştır. Öğrenciler ders listesinden istedileri dersin üzerine dokunarak ders notlarına, örek sorulara ve çözümlerine ulaşabilecek aynı zamanda öğretmenlerine dersle alakalı sorularını da iletebileceklerdir.
